@@ -42,7 +42,7 @@ do {
 //    }
 //}
 
-//postinkrementacja- najpierw zwiększa licznik potem wykonuje instrukcje//
+//postinkrementacja- najpierw zwiększa licznik potem wykonuje instrukcje ++i//
 
 // i=i+1 // 
 // console.log //
@@ -57,10 +57,39 @@ for ( var i=1; i < 4;){
 }
 
 
-//preinkrementacja- najpierw wykonuje instrukcje a potem zwiększa licznik//
+//preinkrementacja- najpierw wykonuje instrukcje a potem zwiększa licznik i++//
 
 // console.log //
 // i= i+1 //
+
+
+
+//intrukcja continue- przechodzi do nowej operacji, dziala jak break tylko nie przerywa pętli//
+
+ for ( var b=0; b < 6; ++b){
+     if ( b ==3){
+         continue;
+     }else{
+         console.log(b);
+    }
+     
+     console.log("---");
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
