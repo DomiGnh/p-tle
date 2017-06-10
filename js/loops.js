@@ -33,20 +33,34 @@ do {
 
 //przerywanie pętli-break//
 
-var a =0;
-while ( a < 10 ){
-    console.log(++a);
-    
-    if ( a ==5){
-        break;
-    }
+//var a =0;
+//while ( a < 10 ){
+////    console.log(++a);
+////    
+//    if ( a ==5){
+//        break;
+//    }
+//}
+
+//postinkrementacja- najpierw zwiększa licznik potem wykonuje instrukcje//
+
+// i=i+1 // 
+// console.log //
+
+for ( var i=1; i < 4; ){
+    console.log(++i);
+} 
+
+console.log('-----');
+for ( var i=1; i < 4;){
+    console.log(i++);
 }
 
 
+//preinkrementacja- najpierw wykonuje instrukcje a potem zwiększa licznik//
 
-
-
-
+// console.log //
+// i= i+1 //
 
 
 
